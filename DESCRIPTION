@@ -7,7 +7,7 @@ Maintainer: Howard J Seltman <hseltman@stat.cmu.edu>
 Depends: R (>= 3.0.1), R2WinBUGS, stringr
 Suggests: R2jags, coda
 Description: This is the original code of the rube package. As there are issues with the
-new R version and the loading of the package, a workaround by loadring to package 
+new R version and the loading of the package, a workaround by loading to package 
 files to github is tried.
 The rube package extends R2WinBUGS or R2jags in many ways.  It extends model
  definition code to allow conditional compilation (IFCASE), run-time expansion of
