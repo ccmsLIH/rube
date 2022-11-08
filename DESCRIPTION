@@ -1,0 +1,22 @@
+Package: rube
+Type: Package
+Title: Really Useful winBugs Enhancer
+Version: 0.3-11
+Author: Howard J Seltman <hseltman@stat.cmu.edu>
+Maintainer: Howard J Seltman <hseltman@stat.cmu.edu>
+Depends: R (>= 3.0.1), R2WinBUGS, stringr
+Suggests: R2jags, coda
+Description: This is the original code of the rube package. As there are issues with the
+new R version and the loading of the package, a workaround by loadring to package 
+files to github is tried.
+The rube package extends R2WinBUGS or R2jags in many ways.  It extends model
+ definition code to allow conditional compilation (IFCASE), run-time expansion of
+ model formulas (LC), run time definition of needed prior declarations (FOR), and
+ overrideable defaults for, e.g., hyperparameters.  If includes extensive detailed
+ syntax error checking and a carefully layed out presentation of the relationships
+ between model declarations, data, and intitializations that facilitates detection
+ of incorrect and/or inappropriate modeling.  Graphics functions facilitate more
+ appropriate specification of prior distributions.  A variety of functions for
+ exploring the posterior are also included.  Now includes jags support.
+Encoding: UTF-8
+LazyData: true
